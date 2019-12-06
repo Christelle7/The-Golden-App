@@ -1,22 +1,94 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
 
-.App-logo {
-  height: 40vmin;
+nav{
+  color:black;
+  background:white;
+  padding: 10px;
+  font-family: 'Anton', sans-serif;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  
+.inventory{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+
+.mainHeader{
+  height: 700px;
+  background-image: url("./images/food.jpg");
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;  
+  
+
+}
+.coldPressed{
+  border:2px solid blue;
+  width: 500px;
+  height: 500px;
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.row img{
+  height: 450px;
+}
+
+.CookingClasses{
+  display: flex;
+  justify-content: space-around;  
+}
+
+
+.CookingClasses img {
+  border:3px solid blue;
+  width:250px;
+  height: 250px; 
+}
+
+.GoodWorks img {
+  height: 300px;
+  width:300px;
+}
+
+.Farmers img{
+  height: 500px;
+  width: 500px;
+}
+.CartTotal{
+  border:1px solid green;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+.Cart{
+  border:4px solid pink;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.rowImages{
+  width: 300px;
+  display:flex;
+  
+}
+.rowWord{
+  border: 3px solid Green;
+  margin-bottom: 300px
+}
+.Deliveries img{
+  width: 300px;
+}
+.OfficeCatering img{
+  height:400px;
+  width: 400px;
 }
