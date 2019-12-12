@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const path = require('path');
-//const config = require('config');
+const config = require('config');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 dotenv.config()
